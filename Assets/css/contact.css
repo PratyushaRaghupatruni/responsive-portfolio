@@ -1,0 +1,22 @@
+body{
+    background-image: url("");
+    background-color: #cccccc;
+}
+
+mark{
+    background-color: #2a607c;
+    color:#d9dcd6;
+    font:20px;
+}
+
+.navbar-nav{
+    float:right;
+}
+
+.container{
+    margin-top:30px;
+    width:500px;
+    height:400px;
+    margin-left:30px;
+    background-color: white;
+}

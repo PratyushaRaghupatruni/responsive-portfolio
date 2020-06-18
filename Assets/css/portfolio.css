@@ -39,7 +39,15 @@
  a.visited{
      color:green;
  }
-
+ .container{
+    display:flex;
+    width:1000px;
+    height:800px;
+    background-color: cornsilk;
+    justify-content:left;
+  
+  
+}
   
  footer{
     background-color:#2a607c;
@@ -48,5 +56,5 @@
     padding:15px;
     position: fixed;
     bottom: 0;
-    width: 100%;  
+    width: 100%; 
 }

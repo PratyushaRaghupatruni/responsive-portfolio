@@ -4,34 +4,37 @@
 }
 
 body{
+    /*setting the background image */
     background:url("../images/bg1.png") ;
 }
 header{
-    padding:10px;
+    /*visual */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
+    /*positioning */
     margin-bottom:20px;
+    padding:10px;
 }
 .main-header h1{
+    /*visual */
     font-size:25px;
     
 }
 .main-header mark{
+    /*visual*/
     background-color: pink;
     color:brown;
 }
 
 .nav-link {
+    /*visual*/
     color:white !important;
     text-decoration:none;
 }
 
 .nav-link:hover{
+    /* highlighting the hyperlinks */
     color:purple !important;
-}
-
-.nav-link:active{
-    color:blue !important;
 }
 
 .nav-link.visited{
@@ -39,22 +42,28 @@ header{
 }
 
 .container{
+    /*box-model*/
     width:600px;
     height:400px;
+
+    /*visual*/
     background-color: cornsilk; 
 }
  
 footer{
+    /*visual */
     background-color: #2a607c;
-    text-align:center;
-    color: cornsilk;
+    color: cornsilk; 
+    /*positioning */
     padding:15px;
+    text-align:center;
     position: fixed;
     bottom: 0;
     width: 100%;
     left:0;
 }
-/* media query */
+/* This rule takes into effect when the screensize is less than 576 px  */
+
 @media screen and (max-width: 576px) { 
     .navbar{
         width:100%;
@@ -62,8 +71,10 @@ footer{
     .container{
         width:100%
     }
-    .container img{
+    /*.container img{
         display: flex;
         justify-content:center ;
     }
+        */
+    
 }

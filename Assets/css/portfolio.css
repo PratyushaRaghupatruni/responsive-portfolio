@@ -4,19 +4,25 @@
  }
  
  body{
+     /* setting the background image for the page */
      background:url("../images/bg1.png") ;
  }
  header{
-     padding:10px;
+    /*visual*/
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      background-color: #2a607c;
+
+     /*positioing */
+     padding:10px;
      margin-bottom:20px;
  }
  .main-header h1{
+     /*visual */
      font-size:25px;
      
  }
  .main-header mark{
+     /* visual */
      background-color: pink;
      color:brown;
  }
@@ -27,48 +33,57 @@
  }*/
 
  .nav-link {
+     /*visual */
      color:white !important;
      text-decoration:none;
      
  }
  
  .nav-link:hover{
+     /* highlighting the links */
      color:purple !important;
  }
- 
- .nav-link:active{
-     color:blue !important;
- }
- 
- .nav-link.visited{
+.nav-link.visited{
+     /* highlighting the links */
      color:green !important;
  }
  .container{    
+     /*visual*/
      background-color: seashell;
+    
+    /* max-height:700px;  */
+    /*box model */
+     margin-bottom:20px;
      width:500px;
      height:700px;
-    /* max-height:700px;  */
  }
  
  footer{
-    background-color:#2a607c;
-    text-align:center;
+     /*visual */
+    background-color:#2a607c; 
     color: cornsilk;
+
+    /*positioning */
+    text-align:center;
     padding:15px;
     bottom: 0;
     width: 100%; 
 }
 
+/*
+  These rules take effect when the browser's width
+  is either 576px or less.
+*/
 @media screen and (max-width: 576px) { 
     .navbar{
         width:100%;
     }
     .container{
         width:100%;
-        max-height:700;
+        max-height:700px;
       /*  align-items: center;
         margin-left:30px;
-        margin-left:30px;  */
+        margin-right:30px;  */
     }
     footer{
         bottom:0;

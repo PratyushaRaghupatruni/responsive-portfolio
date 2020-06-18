@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title of the page-->
     <title>contact</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <!--bootstrap css link-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
     crossorigin="anonymous">
+      <!--contact css link-->
     <link rel="stylesheet" href="./assets/css/contact.css">
 </head>
-</head>
 <body>
+  <!--navbar header-->
   <header>
+    <!--Navbar(copied and pasted from Bootstrap-->
     <nav class="navbar navbar-expand-lg navbar-light">
+     <!--main header of the page(name declaration)-->
       <div class="main-header">
          <h1><mark>Pratyusha Raghupatruni</mark></mark></h1>
       </div>
@@ -19,6 +25,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
+        <!--Hyperlinks declaration for index.html,portfolio.html,contact.html-->
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active" >
             <a class="nav-link" href="index.html">About</a>
@@ -32,20 +39,22 @@
         </ul>
       </div>
     </nav>
-   </header>
-    
-    <div class="container">
-        <div class="row">
+ </header>
+    <!--Main body goes in container-->
+    <section class="container">
+        <section class="row">
           <div class="col-sm-4">
+            <!--This container is the header of the container--> 
             <div class="page-header">
               <h2>Contact</h2>
             </div>
           </div>
-        </div>
+        </section>
 
         
-        <div class="row">
+        <section class="row">
           <div class="col-sm-9">
+            <!--copied the content from Bootstrap for creating a form-->
             <form>
               <div class="form-group">
                 <label for="exampleInputName1">Name</label>
@@ -62,17 +71,18 @@
               </div>
             </form>
           </div> 
-      </div>
-
-        <div class="row">
+       </section>
+      <!--This is the content of having a  submit button-->
+        <section class="row">
           <div class="col-sm-4">
             <form>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
           </div>
-        </div>
-      </div>  
-      
+        </section>
+    </section>  
+
+  <!--footer of the page-->    
       <footer>
        <p> &copy; copyright</p>
       </footer>

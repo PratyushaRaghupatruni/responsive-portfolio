@@ -11,45 +11,37 @@ header{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     margin-bottom:20px;
-  
-
 }
 .main-header h1{
     font-size:25px;
     
 }
-mark{
+.main-header mark{
     background-color: pink;
     color:brown;
 }
 
-a {
-    color:white;
+.nav-link {
+    color:white !important;
     text-decoration:none;
 }
 
-a:hover{
-    color:purple;
+.nav-link:hover{
+    color:purple !important;
 }
 
-a:active{
-    color:blue;
+.nav-link:active{
+    color:blue !important;
 }
 
-a.visited{
-    color:green;
+.nav-link.visited{
+    color:green !important;
 }
 
 .container{
-    width:700px;
+    width:600px;
     height:400px;
-    background-color: cornsilk;
-  
-}
-
-.container p{
-      line-height:25px;
-
+    background-color: cornsilk; 
 }
  
 footer{
@@ -60,4 +52,18 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+    left:0;
+}
+/* media query */
+@media screen and (max-width: 576px) { 
+    .navbar{
+        width:100%;
+    }
+    .container{
+        width:100%
+    }
+    .container img{
+        display: flex;
+        justify-content:center ;
+    }
 }

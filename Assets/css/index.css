@@ -16,7 +16,7 @@ header{
     margin-bottom:20px;
     padding:10px;
 }
-#main-header h1{
+#main-header{
    font-size:25px;
    color:brown; 
    background-color: pink;

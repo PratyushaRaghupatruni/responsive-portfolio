@@ -16,12 +16,9 @@
      padding:10px;
      margin-bottom:20px;
  }
- .main-header h1{
-     /*visual */
-     font-size:25px;
+ 
      
- }
- .main-header{
+ #main-header{
         font-size:25px;
         color:brown; 
         background-color: pink;

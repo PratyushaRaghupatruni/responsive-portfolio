@@ -28,6 +28,7 @@
      
 
  .nav-link {
+
      /*visual */
      color:white !important;
      text-decoration:none;
@@ -45,6 +46,8 @@
     /*box model */
      margin-bottom:20px;
      width:600px;
+
+     position:relative;
     
  }
 .row{
@@ -53,7 +56,7 @@
 
  footer{
      
-    position:fixed;
+    position:absolute;
     height:75px;
     left: 0;
     bottom: 0;
@@ -69,9 +72,9 @@
   is either 576px or less.
 */
 @media screen and (max-width: 576px) { 
-   /* body{
-        max-height:500px;
-    } */
+      body{
+      
+    } 
     .navbar{
         width:100%;
     }
@@ -88,5 +91,7 @@
     footer{
         bottom:0;
         width:100%;
+       
+        
     }
 }

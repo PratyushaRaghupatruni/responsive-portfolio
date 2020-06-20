@@ -56,7 +56,8 @@
 
     /*positioning */
     text-align:center;
-    padding:15px;
+    
+    position: absolute;
     bottom: 0;
     width: 100%; 
 }

@@ -11,21 +11,18 @@ header{
     /*visual */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
+
     /*positioning */
     margin-bottom:20px;
     padding:10px;
 }
+#main-header h1{
+   font-size:25px;
+   color:brown; 
+   background-color: pink;
+}
 
-.main-header h1{
-    /*visual */
-    font-size:25px; 
-    height:100%;   
-}
-.main-header mark{
-    /*visual*/
-    background-color: pink;
-    color:brown;
-}
+
 
 .nav-link {
     /*visual*/
@@ -36,10 +33,6 @@ header{
 .nav-link:hover{
     /* highlighting the hyperlinks */
     color:purple !important;
-}
-
-.nav-link:visited{
-    color:green !important;
 }
 
 .container{
@@ -55,6 +48,7 @@ footer{
     /*visual */
     background-color: #2a607c;
     color: cornsilk; 
+
     /*positioning */
     padding:15px;
     text-align:center;
@@ -74,9 +68,6 @@ footer{
         width:100%;
         height:450px;
         overflow: hidden;
-         
-    
-
     }
     
 }

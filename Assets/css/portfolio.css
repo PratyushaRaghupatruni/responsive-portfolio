@@ -21,13 +21,12 @@
      font-size:25px;
      
  }
- .main-header mark{
-     /* visual */
-     background-color: pink;
-     color:brown;
- }
-
-
+ .main-header{
+        font-size:25px;
+        color:brown; 
+        background-color: pink;
+     }
+     
 
  .nav-link {
      /*visual */
@@ -46,13 +45,12 @@
     
     /*box model */
      margin-bottom:20px;
-     width:500px;
+     width:600px;
     
-   
  }
- .row{
+.row{
      margin-bottom:10px;
- }
+}
  
  footer{
      /*visual */
@@ -71,13 +69,22 @@
   is either 576px or less.
 */
 @media screen and (max-width: 576px) { 
+   /* body{
+        max-height:500px;
+    } */
     .navbar{
         width:100%;
     }
     .container{
         width:100%;
     }
+    .row{
+        margin-bottom:10px;
+   }
 
+   .row figure{
+       margin-bottom:10px;
+   }
     footer{
         bottom:0;
         width:100%;

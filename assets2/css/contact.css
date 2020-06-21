@@ -1,29 +1,23 @@
 
-*{
-    padding:0;
-    margin:0; 
- }
- 
- body{
-     /*setting the background image*/
-     background:url("../images/bg1.png") ;
- }
- header{
-     
-     /* visual */
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-     background-color: #2a607c;
+body{
+    /*setting the background image */
+    background:url("../images/bg1.png") ;
+}
 
-     /* positioning the content */
-     padding:10px;
-     margin-bottom:20px;
- }
+.navbar{
+    background-color:#2a607c !important;
+    border-bottom-color: brown;
+    border-bottom: thick;
+    margin-bottom:20px;
 
- #main-header{
-        font-size:25px;
-        color:brown; 
-        background-color: pink;
-     }
+
+}
+.navbar-brand{
+    background-color: plum;
+    color: snow  !important;
+    font-size: xx-large;
+    margin-left:75px;
+}
      
  
  .nav-link {

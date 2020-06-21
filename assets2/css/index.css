@@ -1,28 +1,24 @@
-*{
-   padding:0;
-   margin:0; 
-}
+
 
 body{
     /*setting the background image */
     background:url("../images/bg1.png") ;
 }
-header{
-    /*visual */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
 
-    /*positioning */
+.navbar{
+    background-color:#2a607c !important;
+    border-bottom-color: brown;
+    border-bottom: thick;
     margin-bottom:20px;
-    padding:10px;
-}
-#main-header{
-   font-size:25px;
-   color:brown; 
-   background-color: pink;
-}
 
 
+}
+.navbar-brand{
+    background-color: plum;
+    color: snow  !important;
+    font-size: xx-large;
+    margin-left:75px;
+}
 
 .nav-link {
     /*visual*/
@@ -45,17 +41,18 @@ header{
 }
  
 footer{
-    /*visual */
     background-color: #2a607c;
     color: cornsilk; 
-
-    /*positioning */
-    padding:15px;
     text-align:center;
     position: fixed;
-    bottom: 0;
-    width: 100%;
+    bottom:0;
+    width:100%;
+    padding:15px;
     left:0;
+    border-top-style:solid;
+    border-top-color: coral;
+
+
 }
 /* This rule takes into effect when the screensize is less than 576 px  */
 

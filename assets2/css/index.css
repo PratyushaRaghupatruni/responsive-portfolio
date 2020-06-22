@@ -48,20 +48,21 @@ body{
 }
  
 footer{
-    /*visual */
-    background-color:#2a607c ;
-    color: cornsilk;
-    
-    /*positioning */
-    text-align:center;
-    position: fixed;
-    bottom:0;
-    width:100%;
-    padding:15px;
-    left:0;
-    border-top-style:solid;
-    border-width:5px;
-    border-top-color:coral;
+    /* visual */
+   background-color:#2a607c;
+   color: cornsilk;
+   border-top-style:solid;
+   border-width:5px;
+   border-top-color:coral;
+
+   /*positioning*/
+   text-align:center;
+   position: fixed;
+
+  /*box-model*/  
+   padding:15px;
+   bottom: 0;
+   width: 100%; 
 
 }
 /* This rule takes into effect when the screensize is less than 576 px  */
@@ -75,6 +76,9 @@ footer{
         width:100%;
         height:450px;
         overflow: hidden;
+    }
+    .navbar-brand{
+        font-size: large;
     }
     
 }

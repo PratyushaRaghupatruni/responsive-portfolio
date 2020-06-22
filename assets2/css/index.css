@@ -6,24 +6,31 @@ body{
 }
 
 .navbar{
+    /*visual*/
     background-color:#2a607c !important;
     border-bottom-color: brown;
-    border-bottom: thick;
     margin-bottom:20px;
     border-bottom-style:solid;
     border-width:5px;
     border-bottom-color:coral;
-
-
-
+   
 }
-.navbar-brand{
+.navbar .navbar-brand{
+    /*visual*/
     background-color: plum;
     color: snow  !important;
     font-size: xx-large;
-    margin-left:75px;
-}
 
+    /*positioning*/
+    margin-left:75px;
+    padding:0;
+    
+}
+.navbar .navbar-collapse {
+    /*positioning*/
+    text-align: right;
+}
+   
 .nav-link {
     /*visual*/
     color:white !important;

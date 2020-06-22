@@ -5,6 +5,7 @@ body{
 }
 
 .navbar{
+    /*visual*/
     background-color:#2a607c !important;
     border-bottom-color: brown;
     border-bottom: thick;
@@ -12,17 +13,23 @@ body{
     border-bottom-style:solid;
     border-width:5px;
     border-bottom-color:coral;
-
-
 }
+
 .navbar-brand{
+     /*visual*/
     background-color: plum;
     color: snow  !important;
     font-size: xx-large;
+    /*positioning*/
     margin-left:75px;
 }
      
- 
+.navbar .navbar-collapse {
+    /*positioning*/
+    text-align: right;
+}
+
+
  .nav-link {
      /*visual */
      color:white !important;

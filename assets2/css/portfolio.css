@@ -21,7 +21,9 @@ body{
     font-size: xx-large;
     margin-left:75px;
 }
-
+.navbar .navbar-collapse {
+    text-align: right;
+}
  .nav-link {
 
      /*visual */

@@ -6,7 +6,6 @@ body{
 }
 
 .navbar{
-    /*visual*/
     background-color:#2a607c !important;
     border-bottom-color: brown;
     margin-bottom:20px;
@@ -15,14 +14,11 @@ body{
     border-bottom-color:coral;
    
 }
-.navbar .navbar-brand{
+.navbar-brand{
     /*visual*/
     background-color: plum;
     color: snow  !important;
     font-size: xx-large;
-
-    /*positioning*/
-    margin-left:75px;
     padding:0;
     
 }
@@ -52,8 +48,11 @@ body{
 }
  
 footer{
+    /*visual */
     background-color:#2a607c ;
-    color: cornsilk; 
+    color: cornsilk;
+    
+    /*positioning */
     text-align:center;
     position: fixed;
     bottom:0;
